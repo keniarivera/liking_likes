@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Likes Part2</title>
+        <link rel="stylesheet" href="./likingLikes-part2.css">
+    </head>
+    <body>
+        <div id="nav-bar">
+            <h1>Network</h1>
+        </div>
+        <p id="feed">Your Feed</p>
+        <div id="main">
+            <div id="col-left">
+                <img class="left" src="http://www.netactivity.us/backup2019/wp-content/uploads/2018/08/Network-Profile.png" alt="profile picture">
+                <a class="left" href="future-link.com">Add an avatar</a>
+                <p class="left">James Doe</p>
+            </div>
+            <div id="col-right">
+                <div class="three-divs">
+                    <div class="person">
+                        <p class="name">Niel M</p>
+                        <p class="number"><span id="user1">9</span> like(s)</p>
+                        <button onclick="incrementLike('#user1')">Like</button>
+                    </div>
+                    <p class="msg">I just set up this new discord bot, let me know what you all think. <a href="future-link.com">link</a></p>
+                </div>
+                <div class="three-divs">
+                    <div class="person">
+                        <p class="name">Nichole K</p>
+                        <p class="number"><span id="user2">12</span> like(s)</p>
+                        <button onclick="incrementLike('#user2')">Like</button>
+                    </div>
+                    <p class="msg">Just finished my <a href="future-link.com">next comic</a>, check it out.</p>
+                </div>
+                <div class="three-divs">
+                    <div class="person">
+                        <p class="name">Jim R</p>
+                        <p class="number"><span id="user3">9</span> like(s)</p>
+                        <button onclick="incrementLike('#user3')">Like</button>
+                    </div>
+                    <p class="msg">I can't stop listening to the <a href="future-link.com">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="./likingLikes-part2.js"></script>
+    </body>
+</html>
